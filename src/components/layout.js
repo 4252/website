@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { Navbar, Nav } from 'react-bootstrap'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
@@ -26,12 +27,12 @@ const Layout = ({ children }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/about">About</Nav.Link>
+            <Link to="/about/">About</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
       <main>{children}</main>
-      <footer className="">
+      <footer>
           © {new Date().getFullYear()}, 4252 Concepts LLC
       </footer>
     </>
