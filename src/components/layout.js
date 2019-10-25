@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="/">
               {data.site.siteMetadata.title}
         </Navbar.Brand>
