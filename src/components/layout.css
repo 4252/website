@@ -2,11 +2,15 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  position: relative;
+  min-height: 100%;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
 }
 article,
 aside,
@@ -30,11 +34,6 @@ footer {
   padding-right: 18px;
   position: absolute;
   width: 100%;
-}
-main {
-  margin-top: 62px;
-  padding-left: 18px;
-  padding-right: 18px;
 }
 audio,
 canvas,
@@ -232,7 +231,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 h1 {
   margin-left: 0;
@@ -634,3 +633,30 @@ pre tt:after {
     font-size: 100%;
   }
 }
+/* For future use
+@media (max-width: 575.98px) {
+  .main-xs{
+    margin-top: 56px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-sm {
+    margin-top: 56px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-md {
+    margin-top: 62px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .main-md {
+    margin-top: 62px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-md {
+    margin-top: 62px;
+  }
+}
+*/
