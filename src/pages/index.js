@@ -9,7 +9,7 @@ import SEO from '../components/seo'
 const IndexPage = (props) => (
   <Layout>
     <SEO title="Home" />
-    <Container fluid style={{ paddingRight: 0, paddingLeft: 0 }}>
+    <Container fluid style={{ paddingRight: 0, paddingLeft: 0, backgroundColor: "white"}}>
       <Row noGutters>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 5, order: 1 }} style={{ display: "flex", fontSize: "30px" }}>
           <p style={{ margin: "auto", textAlign: "center" }}>

@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
     /* Margin bottom by footer height */
     margin-bottom: 50px;
+    background-color: #343a40;
 }
 article,
 aside,
