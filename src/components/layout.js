@@ -1,15 +1,10 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
+import React from 'react'
+import { Link } from 'gatsby'
+import { Navbar, Nav } from 'react-bootstrap'
+import PropTypes from 'prop-types'
+import { useStaticQuery, graphql } from 'gatsby'
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
+import 'bootstrap/dist/css/bootstrap.min.css'
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,22 +20,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar.Brand href="/">
+              {data.site.siteMetadata.title}
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Link to="/about/">About</Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <main>{children}</main>
+      <footer>
+          © {new Date().getFullYear()}, 4252 Concepts LLC
+      </footer>
     </>
   )
 }
@@ -50,3 +44,13 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+export const fluidImage = graphql`
+fragment fluidImage on File {
+  childImageSharp {
+    fluid(maxWidth: 1920) {
+      ...GatsbyImageSharpFluid
+    }
+  }
+}
+`
