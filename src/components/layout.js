@@ -44,3 +44,13 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+export const fluidImage = graphql`
+fragment fluidImage on File {
+  childImageSharp {
+    fluid(maxWidth: 1920) {
+      ...GatsbyImageSharpFluid
+    }
+  }
+}
+`

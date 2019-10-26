@@ -27,16 +27,6 @@ const IndexPage = (props) => (
 
 export default IndexPage
 
-export const fluidImage = graphql`
-fragment fluidImage on File {
-  childImageSharp {
-    fluid(maxWidth: 1920) {
-      ...GatsbyImageSharpFluid
-    }
-  }
-}
-`
-
 export const pageQuery = graphql`
   query {
     homeImg: file(relativePath: { eq: "home_splash.jpg" }) {
