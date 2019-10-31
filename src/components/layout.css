@@ -10,8 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     /* Margin bottom by footer height */
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     background-color: #343a40;
+    min-height: 100vh;
 }
 article,
 aside,
@@ -648,6 +649,13 @@ pre tt:after {
 }
 .navLink:hover {
   background-color: lightsteelblue;
+}
+.gatsbyBackgroundImageCss {
+  
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100%;
 }
 /* For future use
 @media (max-width: 575.98px) {

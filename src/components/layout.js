@@ -57,3 +57,12 @@ fragment fluidImage on File {
   }
 }
 `
+export const fluidImageCss = graphql`
+fragment fluidImageCss on File {
+  childImageSharp {
+    fluid(maxWidth: 1920) {
+      ...GatsbyImageSharpFluid_withWebp
+    }
+  }
+}
+`
