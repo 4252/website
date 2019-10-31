@@ -646,12 +646,13 @@ pre tt:after {
   margin-right: 10px;
   min-width: 100px;
   text-align: center;
+  min-height: 40px;
+  line-height: 40px;
 }
 .navLink:hover {
   background-color: lightsteelblue;
 }
 .gatsbyBackgroundImageCss {
-  
   background-position: center center;
   background-repeat: repeat-y;
   background-size: cover;
