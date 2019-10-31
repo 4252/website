@@ -1,8 +1,8 @@
 import React from "react"
 
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import { Container, Col, Row } from 'react-bootstrap'
+import BackgroundImage from 'gatsby-background-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,8 +10,8 @@ import SEO from "../components/seo"
 const About = (props) => (
   <Layout>
     <SEO title="About" />
-    <Container fluid style={{ paddingRight: 0, paddingLeft: 0, backgroundColor: "white"}}>
-      <Row noGutters>
+    <Container fluid style={{ paddingRight: 0, paddingLeft: 0, backgroundColor: "white", height: "96vh", display: "flex", flexFlow: "column"}}>
+      <Row noGutters style={{ flexGrow: "1" }}>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} style={{ display: "flex", fontSize: "30px" }}>
           <p style={{ marginTop:"15px", marginBottom:"auto", marginLeft: "15px", marginRight: "15px", textAlign: "left", lineHeight: "30px" }}>
             <span style={{ fontSize: "20px" }}>4252 Concepts was founded with the intention to be creative, helpful, and inspiring. We are focused on helping individuals to large businesses with various services which include technology, photography, graphic arts, video creation, and, most importantly, achieving their potential.</span>
@@ -26,7 +26,11 @@ const About = (props) => (
           </p>
         </Col>
         <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }} >
-          <Img fluid={props.data.homeImg.childImageSharp.fluid}/>
+          <BackgroundImage
+              Tag="div"
+              className="gatsbyBackgroundImageCss"
+              fluid={props.data.aboutImg.childImageSharp.fluid}
+            ></BackgroundImage>
         </Col>
       </Row>
     </Container>
@@ -37,8 +41,8 @@ export default About
 
 export const pageQuery = graphql`
   query {
-    homeImg: file(relativePath: { eq: "about_splash.png" }) {
-      ...fluidImage
+    aboutImg: file(relativePath: { eq: "about_splash.png" }) {
+      ...fluidImageCss
     }
   }
 `
