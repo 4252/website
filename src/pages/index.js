@@ -10,7 +10,7 @@ const IndexPage = (props) => (
   <Layout>
     <SEO title="Home" />
     <Container fluid style={{ paddingRight: 0, paddingLeft: 0, backgroundColor: "white", height: "96vh", display: "flex", flexFlow: "column"}}>
-      <Row noGutters  style={{ flexGrow: "1" }}>
+      <Row noGutters style={{ flexGrow: "1" }}>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 5, order: 1 }} style={{ display: "flex", fontSize: "30px" }}>
           <p style={{ margin: "auto", textAlign: "center" }}>
           <span style={{ fontSize: "30px" }}>Effective solutions for the most complex home office and business needs.</span>
