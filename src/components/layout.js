@@ -21,13 +21,16 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="/">
-              {data.site.siteMetadata.title}
-        </Navbar.Brand>
+        <Link to="/">
+          <Navbar.Brand>
+            {data.site.siteMetadata.title}
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Link to="/about/">About</Link>
+            <div className="navLink"><Link to="/services/">Services</Link></div>
+            <div className="navLink"><Link to="/about/">About</Link></div>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

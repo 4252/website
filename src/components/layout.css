@@ -634,6 +634,21 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.btn.btn-square {
+  border-radius: 0;
+  margin-right: 5px;
+}
+.navLink,
+.navLink:hover {
+  display: inline-table;
+  position: relative;
+  margin-right: 10px;
+  min-width: 100px;
+  text-align: center;
+}
+.navLink:hover {
+  background-color: lightsteelblue;
+}
 /* For future use
 @media (max-width: 575.98px) {
   .main-xs{
