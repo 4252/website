@@ -653,7 +653,7 @@ pre tt:after {
   background-color: lightsteelblue;
 }
 .gatsbyBackgroundImageCss {
-  background-position: center center;
+  background-position: top center;
   background-repeat: repeat-y;
   background-size: cover;
   height: 100%;
