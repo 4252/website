@@ -14,10 +14,18 @@ const About = (props) => (
       <Row noGutters style={{ flexGrow: "1" }}>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} style={{ display: "flex", fontSize: "30px" }}>
           <p style={{ marginTop:"15px", marginBottom:"auto", marginLeft: "15px", marginRight: "15px", textAlign: "left", lineHeight: "30px" }}>
-            <span style={{ fontSize: "20px" }}>4252 Concepts was founded with the intention to be creative, helpful, and inspiring. We are focused on helping individuals to large businesses with various services which include technology, photography, graphic arts, video creation, and, most importantly, achieving their potential.</span>
+            <span style={{ fontSize: "20px" }}>4252 Concepts was founded with the intention to be creative, helpful, and inspiring. We are
+              equipped to help everyone, from individuals to large businesses, with various service offerings. We specialize in technology solutions
+              for development operations (DevOps), networking for home and offices, integration services for products like Office 365, and cloud
+              services for Microsoft Azure and Amazon Web Services (AWS). We also support clients with digital media and photography. But most
+              importantly, we work with all of our clients to ensure they achieve their full potential.</span>
             <br />
             <br />
-            <span style={{ fontSize: "20px" }}>Over the years, we have provided thought leadership, strategy assessment, and execution improvement processes. Clients ranging from medical, legal, transportation, fashion, and more have benefited from the diverse perspectives provided and have seen growth after realigning their vision strategy with a clear set of goals and guiding principals.</span>
+            <span style={{ fontSize: "20px" }}>It is because of our diverse background that our clients are left knowing that the solutions they
+              need are the best on the market. Our years working with small and large businesses have enabled us to provide thought leadership,
+              strategy assessment, and execution improvement processes in the most challenging of environments. Clients ranging from medical,
+              legal, transportation, fashion, and more have benefited from the diverse perspectives we've provided and have seen growth after
+              realigning their vision strategy with a clear set of goals and guiding principals.</span>
             <br />
             <br />
             <span style={{ fontStyle: "bold", fontSize: "20px" }}>Our Partners</span>
