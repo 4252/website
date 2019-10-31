@@ -4,7 +4,6 @@ import { Navbar, Nav } from 'react-bootstrap'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
 import "./layout.css"
 
 const Layout = ({ children }) => {
