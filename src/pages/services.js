@@ -30,12 +30,12 @@ const Services = (props) => (
                         <br/>
                         <br/>
                         <ul>
-                            <li>Get RADIUS authentication</li>
-                            <li>Best in class roaming</li>
+                            <li>Stop buying wireless network extenders that don't fix the problem</li>
                             <li>Full visibility into your WiFi network</li>
                             <li>Remote management capabilities</li>
                             <li>No cables needed for remote locations on your premise</li>
-                            <li>Stop buying wireless network extenders that don't fix the problem</li>
+                            <li>Best in class roaming</li>
+                            <li>Get RADIUS authentication</li>
                         </ul>
 
                         Do you have poor cell phone reception at your home or office? Is it frustrating to have to go outside to make an
