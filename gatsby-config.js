@@ -20,6 +20,7 @@ module.exports = {
     author: `@brian4252`,
   },
   plugins: [
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
