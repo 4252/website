@@ -658,6 +658,15 @@ pre tt:after {
   background-size: cover;
   height: 100%;
 }
+.servicesHeading {
+  border-bottom: 3px;
+  border-bottom-color: #b9e5ff;
+  border-bottom-style: double;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+}
 /* For future use
 @media (max-width: 575.98px) {
   .main-xs{
