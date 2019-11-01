@@ -19,7 +19,6 @@ const About = (props) => (
               Our Values Put the Customer First
               </span>
           </p>
-          <p style={{ display: "inline-block", textAlign: "center", marginBottom: "10px", backgroundColor: "navy", height:"3px" }}></p>
           <p style={{ display: "inline-block", textAlign: "center", marginBottom: "50px" }}>
             <span style={{ fontSize: "60px", lineHeight: "50px" }}>
               Our goal is to earn your trust by exceeding your expectations.
