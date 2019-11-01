@@ -14,16 +14,8 @@ const About = (props) => (
     <Container fluid style={{ paddingRight: 0, paddingLeft: 0, backgroundColor: "white", height: "100vh", display: "flex", flexFlow: "column" }}>
       <Row noGutters style={{ flexGrow: "1" }}>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} style={{ display: "block", padding: "15px", margin: "auto", marginTop: "0", marginBottom: "50px", textAlign: "left" }}>
-          <p style={{ display: "inline-block", textAlign: "center", marginBottom: "50px", marginTop: "30px", borderBottom: "3px solid #4588ba" }}>
-            <span style={{ fontSize: "60px", lineHeight: "50px" }}>
-              Our Values Put the Customer First
-              </span>
-          </p>
-          <p style={{ display: "inline-block", textAlign: "center", marginBottom: "50px" }}>
-            <span style={{ fontSize: "60px", lineHeight: "50px" }}>
-              Our goal is to earn your trust by exceeding your expectations.
-            </span>
-          </p>
+          <h1 style={{ textAlign: "center", marginBottom: "50px", marginTop: "30px", borderBottom: "3px solid #4588ba" }}>Our Values Put the Customer First</h1>
+          <h1 style={{ display: "inline-block", textAlign: "center", marginBottom: "50px" }}>Our goal is to earn your trust by exceeding your expectations.</h1>
           <p style={{ display: "inline-block" }}>
             <span style={{ fontSize: "20px" }}>4252 Concepts was founded with the intention to be creative, helpful, and inspiring. We are
               equipped with skills for everyone, from individuals to large businesses. We specialize in technology solutions
@@ -37,17 +29,14 @@ const About = (props) => (
               strategy assessment, and execution improvement processes in the most challenging of environments. Clients ranging from medical,
               legal, transportation, fashion, and more have benefited from the diverse perspectives we've provided and have seen growth after
               realigning their vision strategy with a clear set of goals and guiding principals.</span>
-            <br />
-            <br />
-            <span style={{ fontStyle: "bold", fontSize: "20px" }}>Our Partners</span>
-            <br />
-            <span style={{ fontSize: "15px" }}>
-              <img src={mslogo} alt="Microsoft" height="50px" />
-              <br />
-              (see our 
-              <a href="https://www.microsoft.com/en-us/solution-providers/partnerdetails/4252-concepts_77de4cb6-e008-4d39-a6a0-cd30d5967d66/5695e811-0633-4832-bc8d-a9045990b928" target="_blank" rel="noopener noreferrer"> profile</a>
-              )</span>
           </p>
+          <h3>Our Partners</h3>
+          <span style={{ fontSize: "15px" }}>
+            <img src={mslogo} alt="Microsoft" height="50px" />
+            <br />
+            (see our 
+            <a href="https://www.microsoft.com/en-us/solution-providers/partnerdetails/4252-concepts_77de4cb6-e008-4d39-a6a0-cd30d5967d66/5695e811-0633-4832-bc8d-a9045990b928" target="_blank" rel="noopener noreferrer"> profile</a>
+            )</span>
         </Col>
         <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }} style={{ display: "block", minHeight: "200px" }}>
           <BackgroundImage
