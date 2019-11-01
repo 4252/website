@@ -17,21 +17,21 @@ const Services = (props) => (
       <Row noGutters>
         <Col xs={12} sm={6} style={{ padding: "20px", marginBottom: "30px" }}>
             <div className="servicesHeading">Networking</div>
-            <Tab.Container id="services-networking" defaultActiveKey="#services-networking-1">
+            <Tab.Container id="services-networking" defaultActiveKey="services-networking-1">
                 <Row>
                     <Col sm={4}>
                     <ListGroup>
-                        <ListGroup.Item action href="#services-networking-1" variant="secondary">
+                        <ListGroup.Item action eventKey="services-networking-1" variant="secondary">
                           Wireless (WiFi / IEEE 802.11)
                         </ListGroup.Item>
-                        <ListGroup.Item action href="#services-networking-2" variant="secondary">
+                        <ListGroup.Item action eventKey="services-networking-2" variant="secondary">
                             Wireless (Cellular / LTE / 5G)
                         </ListGroup.Item>
                     </ListGroup>
                     </Col>
                     <Col sm={8}>
                     <Tab.Content>
-                        <TabPane eventKey="#services-networking-1">
+                        <TabPane eventKey="services-networking-1">
                             Today, the need for WiFi and cellular communications is constantly increasing. Let us help you install
                             your new WiFi solution in your home or office. Although there are many choices out there, we offer
                             professional grade solutions at consumer prices.
@@ -51,9 +51,10 @@ const Services = (props) => (
                                 <li>Full visibility into your WiFi network</li>
                                 <li>Remote management capabilities</li>
                                 <li>No cables needed for remote locations on your premise</li>
+                                <li>Stop buying wireless network extenders that don't fix the problem</li>
                             </ul>
                         </TabPane>
-                        <Tab.Pane eventKey="#services-networking-2">
+                        <Tab.Pane eventKey="services-networking-2">
                             Do you have poor cell phone reception at your home or office? Is it frustrating to have to go outside to make an
                             important call? Sure, you could look to switch your cell phone provider to solve this problem. But that might
                             get rid of it permanently.
@@ -69,21 +70,21 @@ const Services = (props) => (
         </Col>
         <Col xs={12} sm={6} style={{ padding: "20px", marginBottom: "30px" }}>
             <div className="servicesHeading">Software and Cloud</div>
-            <Tab.Container id="services-software-cloud" defaultActiveKey="#services-software-cloud-1">
+            <Tab.Container id="services-software-cloud" defaultActiveKey="services-software-cloud-1">
                 <Row>
                     <Col sm={4}>
                     <ListGroup>
-                        <ListGroup.Item action href="#services-software-cloud-1" variant="secondary">
+                        <ListGroup.Item action eventKey="services-software-cloud-1" variant="secondary">
                           Office 365 (Email and More)
                         </ListGroup.Item>
-                        <ListGroup.Item action href="#services-software-cloud-2" variant="secondary">
+                        <ListGroup.Item action eventKey="services-software-cloud-2" variant="secondary">
                             Cloud (Azure and AWS)
                         </ListGroup.Item>
                     </ListGroup>
                     </Col>
                     <Col sm={8}>
                     <Tab.Content>
-                        <Tab.Pane eventKey="#services-software-cloud-1">
+                        <Tab.Pane eventKey="services-software-cloud-1">
                             Most people use email as a primary source of communication. Even with text messaging, Slack, Microsoft Teams, and many other
                             types of services which keep people together, email remains the default. Getting a personal email address is simple, and free!
                             Why wouldn't you want to get something for free?
@@ -111,7 +112,7 @@ const Services = (props) => (
                                 <li>Get free conferencing abilities; buy up and get your own dial-in number</li>
                             </ul>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="#services-software-cloud-2">
+                        <Tab.Pane eventKey="services-software-cloud-2">
                          words
                         </Tab.Pane>
                     </Tab.Content>
