@@ -298,7 +298,6 @@ h4 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -663,9 +662,11 @@ pre tt:after {
   background-repeat: repeat-y;
   background-size: cover;
   height: 100%;
+  line-height: 20;
+  bottom: 0;
 }
 .contentBannerContainer {
-  line-height: 100%;
+  line-height: 20;
 
   background-color: #b9e5ff;
   text-align: center;
@@ -686,16 +687,15 @@ pre tt:after {
   max-width: 980px;
 }
 .servicesHeading {
-  border-bottom: 3px;
-  border-bottom-color: #b9e5ff;
-  border-bottom-style: double;
-  font-size: 30px;
+  font-size: 30pt;
   display: block;
+  line-height: 2;
   margin-bottom: 30px;
   text-align: center;
+  background-color: lightgray;
 }
 .callUs {
-  color: #b9e5ff;
+  color: deepskyblue;
 }
 /* For future use
 @media (max-width: 575.98px) {
