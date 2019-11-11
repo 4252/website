@@ -1,7 +1,7 @@
 import React from "react"
-
 import { graphql } from 'gatsby'
-import { Container, Col, Row, Tab, ListGroup, TabPane } from 'react-bootstrap'
+import { Col, Row, Tab, ListGroup, TabPane } from 'react-bootstrap'
+import BackgroundImage from 'gatsby-background-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,11 +9,17 @@ import SEO from "../components/seo"
 const Services = (props) => (
   <Layout>
     <SEO title="Services" />
-    <div style={{ backgroundColor: "#b9e5ff", paddingBottom: "20px", paddingTop: "30px", textAlign: "center", marginBottom: "0px" }}>
-        <h1>Services for the most demanding needs.</h1>
-        <h1>Prices that you can afford.</h1>
+    <div style={{ backgroundColor: "#b9e5ff", textAlign: "center", marginBottom: "40px", height: "300px" }}>
+        <BackgroundImage
+              Tag="div"
+              className="gatsbyBackgroundImageCss"
+              fluid={props.data.serviceImg.childImageSharp.fluid}
+        >
+            <h1>Services for the most demanding needs.</h1>
+            <h1>Prices that you can afford.</h1>
+        </BackgroundImage>
     </div>
-    <div style={{ paddingRight: 0, paddingLeft: "40px", backgroundColor: "white", height: "100vh", marginTop: "60px", paddingTop: "30px" }}>
+    <div style={{ padding: "0em 1em 2em 1em", backgroundColor: "white", height: "100vh", margin: "0 auto", width: "980px" }}>
     <Tab.Container id="services" defaultActiveKey="services-networking">
         <Row noGutters>
             <Col sm={10} style={{ paddingRight: "40px" }}>
@@ -86,8 +92,8 @@ export default Services
 
 export const pageQuery = graphql`
   query {
-    homeImg: file(relativePath: { eq: "about_splash.png" }) {
-      ...fluidImage
+    serviceImg: file(relativePath: { eq: "top_banner.png" }) {
+      ...fluidImageCss
     }
   }
 `
