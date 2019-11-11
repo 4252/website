@@ -13,18 +13,17 @@ const About = (props) => (
     <Col>
       <h1 style={{ display: "inline-block", textAlign: "center", marginBottom: "50px" }}>Our goal is to earn your trust by exceeding your expectations.</h1>
       <p style={{ display: "inline-block" }}>
-        <span style={{ fontSize: "20px" }}>4252 Concepts was founded with the intention to be creative, helpful, and inspiring. We are
+          4252 Concepts was founded with the intention to be creative, helpful, and inspiring. We are
           equipped with skills for everyone, from individuals to large businesses. We specialize in technology solutions
           for development operations (DevOps), networking for home and offices, integration services for products like Office 365, and cloud
           services for Microsoft Azure and Amazon Web Services (AWS). We also support clients with digital media and photography. But most
-          importantly, we work with all of our clients to ensure they achieve their full potential.</span>
         <br />
         <br />
-        <span style={{ fontSize: "20px" }}>It is because of our diverse background that our clients are left knowing that the solutions they
+          It is because of our diverse background that our clients are left knowing that the solutions they
           need are the best on the market. Our years working with small and large businesses have enabled us to provide thought leadership,
           strategy assessment, and execution improvement processes in the most challenging of environments. Clients ranging from medical,
           legal, transportation, fashion, and more have benefited from the diverse perspectives we've provided and have seen growth after
-          realigning their vision strategy with a clear set of goals and guiding principals.</span>
+          realigning their vision strategy with a clear set of goals and guiding principals.
       </p>
       <h3>Our Partners</h3>
       <span style={{ fontSize: "15px" }}>
