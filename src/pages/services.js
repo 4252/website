@@ -8,7 +8,7 @@ const Services = () => (
     <Content banner="Services">
         <SEO title="Services" />
         <div>
-            <div className="servicesHeading">Software and Cloud</div>
+            <div className="servicesHeading">Professional Email</div>
             Most people use email as a primary source of communication. Even with text messaging, Slack, Microsoft Teams, and many other types of services that keep people together, email remains the default. Getting a personal email address is simple and free! Why wouldn't you want to get something for free?
             <br/>
             <br/>
