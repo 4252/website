@@ -12,13 +12,13 @@ const IndexPage = (props) => (
     <Container fluid style={{ paddingRight: 0, paddingLeft: 0, backgroundColor: "white", height: "96vh", display: "flex", flexFlow: "column" }}>
       <Row noGutters style={{ flexGrow: "1" }}>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 5, order: 1 }} style={{ display: "block", margin: "auto", textAlign: "center" }}>
-          <h1>Effective solutions for the most complex home office and small business needs.</h1>
-          <h4>We support customer's throughout the United States. But if you want same day, on-site service, please be in
+          <h2>Effective solutions for the most complex home office and small business needs.</h2>
+          <p style={{ display: "inline-block" }}>
+            <span style={{ fontSize: "20px" }}>Book time with us: <a href="https://x52.fyi/bookings" target="_blank" rel="noopener noreferrer">bookings page</a></span>
+          </p>
+          <h4 style={{ color: "darkgray" }}>We support customer's throughout the United States. But if you want same day, on-site service, please be in
             the state of Washington. Our home territory is Bellevue, Redmond, Kirkland, Issaquah, and Seattle. We do support customers in Cle Elum
             as well.</h4>
-          <p style={{ display: "inline-block" }}>
-            <span style={{ fontSize: "20px", color: "darkgray" }}>Book time with us: <a href="https://x52.fyi/bookings" target="_blank" rel="noopener noreferrer">bookings page</a></span>
-          </p>
         </Col>
         <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 7, order: 2 }}>
           <BackgroundImage
