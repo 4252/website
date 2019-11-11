@@ -672,6 +672,16 @@ pre tt:after {
   margin-bottom: 40px;
   max-width: 100%;
 }
+@media (max-width: 575.98px) {
+  .contentBannerContainer{
+    height: 150px;
+  }
+}
+@media (min-width: 576px) {
+  .contentBannerContainer{
+    height: 300px;
+  }
+}
 .contentBody {
   max-width: 980px;
 }
@@ -684,18 +694,9 @@ pre tt:after {
   margin-bottom: 30px;
   text-align: center;
 }
-
-@media (max-width: 575.98px) {
-  .contentBannerContainer{
-    height: 150px;
-  }
+.callUs {
+  color: #b9e5ff;
 }
-@media (min-width: 576px) {
-  .contentBannerContainer{
-    height: 300px;
-  }
-}
-
 /* For future use
 @media (max-width: 575.98px) {
   .main-xs{
