@@ -689,7 +689,7 @@ pre tt:after {
 .servicesHeading {
   font-size: 30pt;
   display: block;
-  line-height: 2;
+  line-height: 1.5;
   margin-bottom: 30px;
   text-align: center;
   background-color: lightgray;
