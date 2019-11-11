@@ -13,7 +13,7 @@ const IndexPage = (props) => (
       <Row noGutters style={{ flexGrow: "1" }}>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 5, order: 1 }} style={{ display: "block", margin: "auto", textAlign: "center" }}>
           <p style={{ display: "inline-block" }}>
-            <span style={{ fontSize: "40px", lineHeight: "50px" }}>Effective solutions for the most complex home office and business needs.</span>
+            <span style={{ fontSize: "40px", lineHeight: "50px" }}>Effective solutions for the most complex home office and small business needs.</span>
           </p>
           <p style={{ display: "inline-block" }}>
             <span style={{ fontSize: "20px", lineHeight: "10px" }}>We support customer's throughout the United States. But if you want same day, on-site service, please be in
