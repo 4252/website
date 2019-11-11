@@ -670,7 +670,6 @@ pre tt:after {
   background-color: #b9e5ff;
   text-align: center;
   margin-bottom: 40px;
-  height: 150px;
   max-width: 100%;
 }
 .contentBody {
@@ -685,6 +684,18 @@ pre tt:after {
   margin-bottom: 30px;
   text-align: center;
 }
+
+@media (max-width: 575.98px) {
+  .contentBannerContainer{
+    height: 150px;
+  }
+}
+@media (min-width: 576px) {
+  .contentBannerContainer{
+    height: 300px;
+  }
+}
+
 /* For future use
 @media (max-width: 575.98px) {
   .main-xs{
