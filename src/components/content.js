@@ -23,7 +23,7 @@ const Content = ({ children, banner }) => {
                 Tag="div"
                 className="contentBanner"
                 fluid={data.topBanner.childImageSharp.fluid}>
-                <h1>{ banner }</h1>
+                { banner }
             </BackgroundImage>
         </div>
         <Container className="contentBody" fluid>

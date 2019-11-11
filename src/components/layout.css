@@ -662,29 +662,39 @@ pre tt:after {
   background-repeat: repeat-y;
   background-size: cover;
   height: 100%;
-  line-height: 20;
   bottom: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 3.25rem;
+  color: darkslategrey;
 }
 .contentBannerContainer {
-  line-height: 20;
-
   background-color: #b9e5ff;
   text-align: center;
   margin-bottom: 40px;
   max-width: 100%;
 }
 @media (max-width: 575.98px) {
+  .contentBanner {
+    line-height: 1.6;
+  }
   .contentBannerContainer{
     height: 150px;
   }
 }
 @media (min-width: 576px) {
+  .contentBanner {
+    line-height: 2;
+  }
   .contentBannerContainer{
     height: 300px;
   }
 }
 .contentBody {
   max-width: 980px;
+  margin-bottom: 50px;
 }
 .servicesHeading {
   font-size: 30pt;
