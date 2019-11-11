@@ -12,6 +12,7 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 0px;
     min-height: 100vh;
+    width: 100%;
 }
 article,
 aside,
@@ -652,10 +653,28 @@ pre tt:after {
   background-color: lightsteelblue;
 }
 .gatsbyBackgroundImageCss {
-  background-position: top center;
+  background-position: center center;
   background-repeat: repeat-y;
   background-size: cover;
   height: 100%;
+}
+.contentBanner {
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100%;
+}
+.contentBannerContainer {
+  line-height: 100%;
+
+  background-color: #b9e5ff;
+  text-align: center;
+  margin-bottom: 40px;
+  height: 150px;
+  max-width: 100%;
+}
+.contentBody {
+  max-width: 980px;
 }
 .servicesHeading {
   border-bottom: 3px;
