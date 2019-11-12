@@ -1,7 +1,6 @@
 import React from "react"
 
-import { Container, Col, Row } from 'react-bootstrap'
-import BackgroundImage from 'gatsby-background-image'
+import { Col } from 'react-bootstrap'
 
 import Content from "../components/content"
 import SEO from "../components/seo"
