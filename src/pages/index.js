@@ -16,9 +16,6 @@ const IndexPage = (props) => (
           <p style={{ display: "inline-block" }}>
             <span style={{ fontSize: "20px" }}>Book time with us: <a href="https://x52.fyi/bookings" target="_blank" rel="noopener noreferrer">bookings page</a></span>
           </p>
-          <h4 style={{ color: "darkgray" }}>We support customer's throughout the United States. But if you want same day, on-site service, please be in
-            the state of Washington. Our home territory is Bellevue, Redmond, Kirkland, Issaquah, and Seattle. We do support customers in Cle Elum
-            as well.</h4>
         </Col>
         <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 7, order: 2 }}>
           <BackgroundImage
