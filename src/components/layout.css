@@ -57,6 +57,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: deepskyblue;
 }
 a:active,
 a:hover {
