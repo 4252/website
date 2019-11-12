@@ -27,6 +27,29 @@ const Services = () => (
             </ul>
         </div>
         <div>
+            <div className="servicesHeading">Digital Transformation</div>
+            Are you getting your money’s worth for all the technology bills you have? Do you feel like technology should be seamless instead of a constant hindrance to your workday?
+            <br/>
+            <br/>
+            There has been an explosion of new technology business services which are “cloud-native” or have improved their focus on automation and integration. The new market has greatly enabled the ability to streamline business analytics or even internal business processes.
+            <br/>
+            <br/>
+            Although many of the services have improved their user interface, this is often not enough to help companies access the data they need, how they need it. Even if there are some simple steps to configuring automation, many employees need special training to do this work.
+            <br/>
+            <br/>
+            We have worked with businesses of all sizes to support their business goals and to integrate technology as a natural and fluid solution.
+            <br/>
+            <br/>
+            <ul>
+                <li>Custom Company Dashboard</li>
+                <li>Automate Business-to-Business (B2B) Integrations</li>
+                <li>Custom Report Generation</li>
+                <li>Legacy Application Transition</li>
+                <li>Data Mobility</li>
+                <li>Office 365 Add-ins that Access Your Business Data</li>
+            </ul>
+        </div>
+        <div>
             <div className="servicesHeading">Professional Email</div>
             Most people use email as a primary source of communication. Even with text messaging, Slack, Microsoft Teams, and many other types of services that keep people together, email remains the default. Getting a personal email address is simple and free! Why wouldn't you want to get something for free?
             <br/>
