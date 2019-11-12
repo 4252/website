@@ -1,5 +1,4 @@
 import React from "react"
-import { Col, Row, Tab, ListGroup, TabPane } from 'react-bootstrap'
 
 import Content from "../components/content"
 import SEO from "../components/seo"
