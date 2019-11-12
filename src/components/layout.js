@@ -29,6 +29,7 @@ const Layout = ({ children }) => {
           <Nav className="mr-auto">
             <div className="navLink"><Link to="/services/">Services</Link></div>
             <div className="navLink"><Link to="/about/">About</Link></div>
+            <div className="navLink"><a href="https://x52.fyi/bookings" target="_blank" rel="noopener noreferrer">BOOK NOW!</a></div>
           </Nav>
         </Navbar.Collapse>
         <div className="callUs">Free consultation; call now <a href="tel:1-509-790-0555">(509) 790-0555</a></div>

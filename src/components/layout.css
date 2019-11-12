@@ -677,22 +677,6 @@ pre tt:after {
   margin-bottom: 40px;
   max-width: 100%;
 }
-@media (max-width: 575.98px) {
-  .contentBanner {
-    line-height: 1.6;
-  }
-  .contentBannerContainer{
-    height: 150px;
-  }
-}
-@media (min-width: 576px) {
-  .contentBanner {
-    line-height: 2;
-  }
-  .contentBannerContainer{
-    height: 300px;
-  }
-}
 .contentBody {
   max-width: 980px;
   margin-bottom: 50px;
@@ -710,6 +694,25 @@ pre tt:after {
 }
 .contentSection {
   margin-bottom: 20px;
+}
+@media (max-width: 575.98px) {
+  .contentBanner {
+    line-height: 1.6;
+  }
+  .contentBannerContainer{
+    height: 150px;
+  }
+}
+@media (min-width: 576px) {
+  .contentBanner {
+    line-height: 2;
+  }
+  .contentBannerContainer{
+    height: 300px;
+  }
+  .navbar {
+    padding: 1.2rem 1rem;
+  }
 }
 /* For future use
 @media (max-width: 575.98px) {
