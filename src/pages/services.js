@@ -8,6 +8,25 @@ const Services = () => (
     <Content banner="Services">
         <SEO title="Services" />
         <div>
+            <div className="servicesHeading">Cost Reduction</div>
+            Who doesn’t want to save money? If you want to start now, give us a call. We have worked with customers of all sizes to help reduce their technology costs while increasing their productivity. Our unique background provides us with insight into where the industry is going and what tools are available that can reduce your costs.
+            <br/>
+            <br/>
+            Even if you have a technology provider, it is often the case that they don’t take the time to understand your business and how it operates. With over 20 years of consulting experience, in much of the industry verticals, we can help you improve how technology fits in your business.
+            <br/>
+            <br/>
+            Below is a list of items we have reviewed for customers that have led to savings and improved company performance.
+            <br/>
+            <br/>
+            <ul>
+                <li>Local Servers (file, backup, database, etc.)</li>
+                <li>Virtual Private Networking</li>
+                <li>Email</li>
+                <li>Landlines (PSTN); Even Current VOIP Solutions</li>
+                <li>Conference calling services</li>
+            </ul>
+        </div>
+        <div>
             <div className="servicesHeading">Professional Email</div>
             Most people use email as a primary source of communication. Even with text messaging, Slack, Microsoft Teams, and many other types of services that keep people together, email remains the default. Getting a personal email address is simple and free! Why wouldn't you want to get something for free?
             <br/>
