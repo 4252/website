@@ -648,6 +648,7 @@ pre tt:after {
   text-align: center;
   min-height: 40px;
   line-height: 40px;
+  margin: 0 auto;
 }
 .navLink:hover {
   background-color: lightsteelblue;
