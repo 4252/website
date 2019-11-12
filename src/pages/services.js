@@ -11,7 +11,7 @@ const Services = () => (
             Who doesn’t want to save money? If you want to start now, give us a call. We have worked with customers of all sizes to help reduce their technology costs while increasing their productivity. Our unique background provides us with insight into where the industry is going and what tools are available that can reduce your costs.
             <br/>
             <br/>
-            Even if you have a technology provider, it is often the case that they don’t take the time to understand your business and how it operates. With over 20 years of consulting experience, in much of the industry verticals, we can help you improve how technology fits in your business.
+            Even if you have a technology provider, it is often the case that they don’t take the time to understand your business and how it operates. With over 20 years of consulting experience, in much of the industry verticals, we can help you improve how technology fits into your business.
             <br/>
             <br/>
             Below is a list of items we have reviewed for customers that have led to savings and improved company performance.
