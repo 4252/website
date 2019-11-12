@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "4252-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "The internet home of 4252 Concepts LLC.",
+  "version": "1.0.0",
+  "author": "Brian Rogers <brian@4252.io>",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gatsby": "^2.17.11",
@@ -37,8 +37,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
