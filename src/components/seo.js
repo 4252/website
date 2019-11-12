@@ -16,9 +16,10 @@ function SEO({ description, lang, meta, title }) {
       query {
         site {
           siteMetadata {
-            title
-            description
             author
+            description
+            title
+            twitterDescription
           }
         }
       }
@@ -65,7 +66,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: site.siteMetadata.twitterDescription,
         },
       ].concat(meta)}
     />

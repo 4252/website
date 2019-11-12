@@ -10,8 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     /* Margin bottom by footer height */
-    margin-bottom: 50px;
-    background-color: #343a40;
+    margin-bottom: 0px;
+    min-height: 100vh;
+    width: 100%;
 }
 article,
 aside,
@@ -56,6 +57,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: deepskyblue;
 }
 a:active,
 a:hover {
@@ -297,7 +299,6 @@ h4 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -632,6 +633,113 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+.btn.btn-square {
+  border-radius: 0;
+  margin-right: 5px;
+}
+.navLink,
+.navLink:hover {
+  display: inline-table;
+  position: relative;
+  margin-right: 10px;
+  min-width: 100px;
+  text-align: center;
+  min-height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.navLink:hover {
+  background-color: lightsteelblue;
+}
+.gatsbyBackgroundImageCss {
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100%;
+}
+.contentBanner {
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100%;
+  bottom: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 3.25rem;
+  color: darkslategrey;
+}
+.contentBannerContainer {
+  background-color: #b9e5ff;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+.contentBody {
+  max-width: 980px;
+  margin-bottom: 50px;
+}
+.servicesHeading {
+  font-size: 30pt;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+.callUs {
+  color: lightgray;
+  margin: 0 auto;
+}
+.contentSection {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 575.98px) {
+  .contentBanner {
+    line-height: 1.6;
+  }
+  .contentBannerContainer{
+    height: 150px;
+  }
+  .navbarLinks {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .contentBanner {
+    line-height: 2;
+  }
+  .contentBannerContainer{
+    height: 300px;
+  }
+  .navbar {
+    padding: 1.2rem 1rem;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .callUs {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .callUs {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbarLinks {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    flex-grow: 1;
+    max-width: 100%;
   }
 }
 /* For future use

@@ -1,15 +1,42 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Col } from 'react-bootstrap'
 
-const About = () => (
-  <Layout>
+import Content from "../components/content"
+import SEO from "../components/seo"
+import mslogo from "../images/microsoft_logo.png"
+
+const About = (props) => (
+  <Content banner="About">
     <SEO title="About" />
-    <h1>About Us</h1>
-    <p>4252 Concepts was founded by Brian Rogers with the intention to be creative, helpful, and inspiring. Primarily through community involvement, the company is focused on helping individuals to large businesses with various services which include technology, photography, graphic arts, video creation, and, most importantly, achieving their potential.</p>
-    <p>Over the years, 4252 Concepts has provided thought leadership, strategy assessment, and execution improvement processes. Clients ranging from medical, legal, transportation, fashion, and more have benefited from the diverse perspectives provided and have seen growth after realigning their vision strategy with a clear set of goals and guiding principals.</p>
-  </Layout>
+    <Col>
+      <h1 style={{ display: "inline-block", textAlign: "center", marginBottom: "50px" }}>Our goal is to earn your trust by exceeding your expectations.</h1>
+      <p style={{ display: "inline-block" }}>
+          4252 Concepts was founded with the intention to be creative, helpful, and inspiring. We are
+          equipped with skills for everyone, from individuals to large businesses. We specialize in technology solutions
+          for development operations (DevOps), networking for home and offices, integration services for products like Office 365, and cloud
+          services for Microsoft Azure and Amazon Web Services (AWS). We also support clients with digital media and photography.
+        <br />
+        <br />
+          It is because of our diverse background of over 20 years in the technology industry that our clients are left knowing that the solutions they
+          need are the best on the market. Our years working with small and large businesses have enabled us to provide thought leadership,
+          strategy assessment, and execution improvement processes in the most challenging of environments. Clients ranging from medical, aviation,
+          legal, transportation, fashion, financial (banking, equity trading, etc.), and more have benefited from the diverse perspectives we've provided
+          and have seen growth after realigning their vision strategy with a clear set of goals and guiding principals.
+        <br />
+        <br />
+          We support customer's throughout the United States. But if you want same day, on-site service, please be in the state of Washington. Our home
+          territory is Bellevue, Redmond, Kirkland, Issaquah, and Seattle. We do support customers in Cle Elum as well.
+      </p>
+      <h3>Our Partners</h3>
+      <span style={{ fontSize: "15px" }}>
+        <img src={mslogo} alt="Microsoft" height="50px" />
+        <br />
+        (see our 
+        <a href="https://www.microsoft.com/en-us/solution-providers/partnerdetails/4252-concepts_77de4cb6-e008-4d39-a6a0-cd30d5967d66/5695e811-0633-4832-bc8d-a9045990b928" target="_blank" rel="noopener noreferrer"> profile</a>
+        )</span>
+    </Col>
+  </Content>
 )
 
 export default About
