@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Services = () => (
     <Content banner="Services">
         <SEO title="Services" />
-        <div>
+        <div className="contentSection">
             <div className="servicesHeading">Cost Reduction</div>
             Who doesn’t want to save money? If you want to start now, give us a call. We have worked with customers of all sizes to help reduce their technology costs while increasing their productivity. Our unique background provides us with insight into where the industry is going and what tools are available that can reduce your costs.
             <br/>
@@ -26,7 +26,7 @@ const Services = () => (
                 <li>Conference calling services</li>
             </ul>
         </div>
-        <div>
+        <div className="contentSection">
             <div className="servicesHeading">Digital Transformation</div>
             Are you getting your money’s worth for all the technology bills you have? Do you feel like technology should be seamless instead of a constant hindrance to your workday?
             <br/>
@@ -49,7 +49,19 @@ const Services = () => (
                 <li>Office 365 Add-ins that Access Your Business Data</li>
             </ul>
         </div>
-        <div>
+        <div className="contentSection">
+            <div className="servicesHeading">IoT</div>
+            The Internet of Things (IoT) came fast and is growing quickly. Our background with embedded devices goes back years before the days of machine-to-machine (M2M) solutions. IoT is set to cover all markets; the question is how to implement it yours.
+            <br/>
+            <br/>
+            <ul>
+                <li>Can your business improve its supply chain by gathering data that is currently inaccessible?</li>
+                <li>Would you like to monitor a device for data but don’t know where to start?</li>
+                <li>Are you tired of the projector not working in your office and would like a simple way of connecting to it?</li>
+            </ul>
+            Whatever you need is, no matter how small or large, we are here to help you navigate your business to the best solution.
+        </div>
+        <div className="contentSection">
             <div className="servicesHeading">Professional Email</div>
             Most people use email as a primary source of communication. Even with text messaging, Slack, Microsoft Teams, and many other types of services that keep people together, email remains the default. Getting a personal email address is simple and free! Why wouldn't you want to get something for free?
             <br/>
@@ -70,7 +82,7 @@ const Services = () => (
                 <li>Get free conferencing abilities; buy up and get your dial-in number</li>
             </ul>
         </div>
-        <div>
+        <div className="contentSection">
             <div className="servicesHeading">Networking</div>
             Today, the need for Wi-Fi and cellular communications is continuously increasing. Let us help you install your new Wi-Fi solution in your home or office. Although there are many choices out there, we offer professional-grade solutions at consumer prices.
             <br/>
