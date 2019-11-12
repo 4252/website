@@ -25,7 +25,6 @@ const Layout = ({ children }) => {
             {data.site.siteMetadata.title}
           </Navbar.Brand>
         </Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <div className="navLink"><Link to="/services/">Services</Link></div>
@@ -33,6 +32,7 @@ const Layout = ({ children }) => {
           </Nav>
         </Navbar.Collapse>
         <div className="callUs">Free consultation; call now <a href="tel:1-509-790-0555">(509) 790-0555</a></div>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       </Navbar>
       <main>{children}</main>
       <footer>
