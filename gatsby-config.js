@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `4252 Concepts`,
     description: `4252 Concepts was founded with the intention to be creative, helpful, and inspiring. ` +
-                  `Primarily through community involvement, the company is focused on helping individuals to large ` +
+                  `The company is focused on helping individuals and small to large ` +
                   `businesses with various services which include technology, photography, graphic arts, video creation, ` +
                   `and, most importantly, achieving their potential. Areas: Microsoft, Azure, Office, Office 365, Outlook, ` +
                   `SharePoint, Teams, Amazon Web Services (AWS), Alexa, Networking, TCP, IP, VPN, DNS, Router, WiFi, ` +
