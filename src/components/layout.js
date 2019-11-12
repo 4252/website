@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
             <div className="navLink"><Link to="/about/">About</Link></div>
           </Nav>
         </Navbar.Collapse>
-        <div className="callUs">Free consultation, call now (509) 790-0555</div>
+        <div className="callUs">Free consultation; call now <a href="tel:1-509-790-0555">(509) 790-0555</a></div>
       </Navbar>
       <main>{children}</main>
       <footer>
