@@ -11,7 +11,7 @@ module.exports = {
                   `Wireshark, Backup, Disaster Recovery, Architecture, Information Technology, IT, Support, Desktop, ` +
                   `Windows, Windows 10, Linux, Ubuntu, Lambda, Azure Functions, Virtual Private Networking, Domain Name Server, ` +
                   `Ubiquiti, Unifi, Video Surveillance, Photography, Washington, WA, Bellevue, Redmond, Kirkland, Cle Elum, ` +
-                  `Issaquah, Kent, Renton, Seattle, Global, National, International, Consulting, Management, Services, Solutions ` +
+                  `Issaquah, Kent, Renton, Bothell, Woodinville, Seattle, Global, National, International, Consulting, Management, Services, Solutions ` +
                   `Small Business, SMB`,
     twitterDescription: `4252 Concepts was founded with the intention to be creative, helpful, and inspiring. \
                   Primarily through community involvement, the company is focused on helping individuals to large \
