@@ -2,7 +2,7 @@
   "name": "4252-website",
   "private": true,
   "description": "The internet home of 4252 Concepts LLC.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Brian Rogers <brian@4252.io>",
   "dependencies": {
     "bootstrap": "^4.3.1",
