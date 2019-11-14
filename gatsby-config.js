@@ -2,22 +2,24 @@ module.exports = {
   siteMetadata: {
     title: `4252 Concepts`,
     description: `4252 Concepts was founded with the intention to be creative, helpful, and inspiring. ` +
-                  `The company is focused on helping individuals and small to large ` +
-                  `businesses with various services which include technology, photography, graphic arts, video creation, ` +
-                  `and, most importantly, achieving their potential. Areas: Microsoft, Azure, Office, Office 365, Outlook, ` +
-                  `SharePoint, Teams, Amazon Web Services (AWS), Alexa, Networking, TCP, IP, VPN, DNS, Router, WiFi, ` +
-                  `Wireless, Cellular, Installation, Integration, SSL, TLS, Security, Active Directory, RADIUS Authentication, WPA2, WPA ` +
-                  `Container, Docker, Kubernetes, React, ReactJS, NodeJS, Development, Visual Studio, Visual Code, Debugging ` +
-                  `Wireshark, Backup, Disaster Recovery, Architecture, Information Technology, IT, Support, Desktop, ` +
-                  `Windows, Windows 10, Linux, Ubuntu, Lambda, Azure Functions, Virtual Private Networking, Domain Name Server, ` +
-                  `Ubiquiti, Unifi, Video Surveillance, Photography, Washington, WA, Bellevue, Redmond, Kirkland, Cle Elum, ` +
-                  `Issaquah, Kent, Renton, Bothell, Woodinville, Seattle, Global, National, International, Consulting, Management, Services, Solutions ` +
-                  `Small Business, SMB`,
-    twitterDescription: `4252 Concepts was founded with the intention to be creative, helpful, and inspiring. \
-                  Primarily through community involvement, the company is focused on helping individuals to large \
-                  businesses with various services which include technology, photography, graphic arts, video creation, \
-                  and, most importantly, achieving their potential.`,
+                  `The company is focused on helping individuals and small to large businesses with various `+
+                  `digital services which include technology, development, photography, graphic arts, video creation, ` +
+                  `and, most importantly, achieving their potential.`,
+    twitterDescription: `4252 Concepts was founded with the intention to be creative, helpful, and inspiring. ` +
+                  `The company is focused on helping individuals to large ` +
+                  `businesses with various digital services which include technology, photography, graphic arts, video creation, ` +
+                  `and, most importantly, achieving their potential.`,
     author: `@brian4252`,
+    details: {
+      location: 'Washington, WA, Bellevue, Redmond, Kirkland, Cle Elum, Issaquah, Kent, Renton, Bothell, Woodinville, Seattle, Global, National, International',
+      service: `Microsoft, Azure, Office, Office 365, Outlook, ` +
+               `SharePoint, Teams, Amazon Web Services (AWS), Alexa, Networking, TCP, IP, VPN, DNS, Router, WiFi, ` +
+               `Wireless, Cellular, Installation, Integration, SSL, TLS, Security, Active Directory, RADIUS Authentication, WPA2, WPA, ` +
+               `Container, Docker, Kubernetes, React, ReactJS, NodeJS, Development, Visual Studio, Visual Code, Debugging, ` +
+               `Wireshark, Backup, Disaster Recovery, Architecture, Information Technology, IT, Support, Desktop, ` +
+               `Windows, Windows 10, Linux, Ubuntu, Lambda, Azure Functions, Virtual Private Networking, Domain Name Server, ` +
+               `Ubiquiti, Unifi, Video Surveillance, Photography, Consulting, Management, Services, Solutions, Small Business, SMB`,
+    },
   },
   plugins: [
     `gatsby-plugin-catch-links`,

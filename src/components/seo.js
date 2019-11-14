@@ -20,6 +20,10 @@ function SEO({ description, lang, meta, title }) {
             description
             title
             twitterDescription
+            details {
+              location
+              service
+            }
           }
         }
       }
@@ -39,6 +43,14 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `location`,
+          content: site.siteMetadata.details.location,
+        },
+        {
+          name: `service`,
+          content: site.siteMetadata.details.service,
         },
         {
           property: `og:title`,

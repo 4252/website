@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import "./layout.css"
+import logo from '../images/logo_64px.png'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -19,10 +20,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="nav-dark" variant="dark">
         <div>
           <Link to="/">
             <Navbar.Brand>
+              <img
+                src={logo}
+                width="38"
+                height="38"
+                className="d-inline-block align-top"
+                alt="4252 Concepts Logo"
+              />
+              {' '}
               {data.site.siteMetadata.title}
             </Navbar.Brand>
           </Link>

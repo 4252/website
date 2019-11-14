@@ -30,7 +30,7 @@ const Services = () => (
             Are you getting your money’s worth for all the technology bills you have? Do you feel like technology should be seamless instead of a constant hindrance to your workday?
             <br/>
             <br/>
-            There has been an explosion of new technology business services which are “cloud-native” or have improved their focus on automation and integration. The new market has greatly enabled the ability to streamline business analytics or even internal business processes.
+            There has been an explosion of new technology business services which are "cloud-native" or have improved their focus on automation and integration. The new market has greatly enabled the ability to streamline business analytics or even internal business processes.
             <br/>
             <br/>
             Although many of the services have improved their user interface, this is often not enough to help companies access the data they need, how they need it. Even if there are some simple steps to configuring automation, many employees need special training to do this work.
@@ -46,6 +46,23 @@ const Services = () => (
                 <li>Legacy Application Transition</li>
                 <li>Data Mobility</li>
                 <li>Office 365 Add-ins that Access Your Business Data</li>
+            </ul>
+        </div>
+        <div className="contentSection">
+            <div className="servicesHeading">Software Development</div>
+            Do you have a concept and need a software application to realize the vision? We can help! Software development is at our core. Over the years, we have developed solutions across a diverse set of frameworks and 3rd party applications. We have integrated with large software applications to save companies over $100 million (USD) per year. With these types of cost reduction potentials, imagine where your company's earings could go!
+            <br/>
+            <br/>
+            The industry has evolved over the years, but this means our knowledge has grown. We have worked on legacy applications that use Microsoft Access and VB script for clients but have also done development in .NET and C++; even website development is in our toolbox. No matter the language, framework, or use case, we can help.
+            <br/>
+            <br/>
+            <h3>Technologies (not all inclusive)</h3>
+            <ul>
+                <li>Microsoft .NET Framework</li>
+                <li>Node.js</li>
+                <li>Web Development (React.js / Bootstrap / D3 Charts)</li>
+                <li>Windows Installer XML (WiX)</li>
+                <li>Containers (Docker / Kubernetes)</li>
             </ul>
         </div>
         <div className="contentSection">
