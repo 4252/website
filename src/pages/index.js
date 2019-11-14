@@ -12,7 +12,7 @@ const IndexPage = (props) => (
     <Container fluid style={{ paddingRight: 0, paddingLeft: 0, backgroundColor: "white", height: "96vh", display: "flex", flexFlow: "column" }}>
       <Row noGutters style={{ flexGrow: "1" }}>
         <Col xs={{ span: 12, order: 2 }} sm={{ span: 12, order: 2 }} md={{ span: 5, order: 1 }} style={{ display: "block", margin: "auto", textAlign: "center" }}>
-          <h2>Effective solutions for the most complex home office and small business needs.</h2>
+          <h2>Effective technology solutions for the most complex office needs. What concept can we help you with today?</h2>
           <p style={{ display: "inline-block" }}>
             <span style={{ fontSize: "20px" }}>Book time with us: <a href="https://x52.fyi/bookings" target="_blank" rel="noopener noreferrer">bookings page</a></span>
           </p>
