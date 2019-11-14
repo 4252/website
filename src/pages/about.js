@@ -5,7 +5,6 @@ import { Col } from 'react-bootstrap'
 import Content from "../components/content"
 import SEO from "../components/seo"
 import brianProfile from '../images/brian-rogers.png'
-import instagramlogo from "../images/instagram_logo.png"
 import mslogo from "../images/microsoft_logo.png"
 
 const About = (props) => (
