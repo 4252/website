@@ -13,10 +13,10 @@ module.exports = {
                   `Ubiquiti, Unifi, Video Surveillance, Photography, Washington, WA, Bellevue, Redmond, Kirkland, Cle Elum, ` +
                   `Issaquah, Kent, Renton, Bothell, Woodinville, Seattle, Global, National, International, Consulting, Management, Services, Solutions ` +
                   `Small Business, SMB`,
-    twitterDescription: `4252 Concepts was founded with the intention to be creative, helpful, and inspiring. \
-                  Primarily through community involvement, the company is focused on helping individuals to large \
-                  businesses with various services which include technology, photography, graphic arts, video creation, \
-                  and, most importantly, achieving their potential.`,
+    twitterDescription: `4252 Concepts was founded with the intention to be creative, helpful, and inspiring. ` +
+                  `Primarily through community involvement, the company is focused on helping individuals to large ` +
+                  `businesses with various services which include technology, photography, graphic arts, video creation, ` +
+                  `and, most importantly, achieving their potential.`,
     author: `@brian4252`,
   },
   plugins: [
