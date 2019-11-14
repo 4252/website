@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="nav-dark" variant="dark">
         <div>
           <Link to="/">
             <Navbar.Brand>

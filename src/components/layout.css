@@ -639,6 +639,9 @@ pre tt:after {
   border-radius: 0;
   margin-right: 5px;
 }
+.bg-nav-dark {
+  background-color: #303030;
+}
 .navLink,
 .navLink:hover {
   display: inline-table;
