@@ -18,6 +18,7 @@ function SEO({ description, lang, meta, title }) {
           siteMetadata {
             author
             description
+            location
             title
             twitterDescription
           }
@@ -39,6 +40,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `location`,
+          content: location,
         },
         {
           property: `og:title`,
