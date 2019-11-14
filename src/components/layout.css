@@ -712,7 +712,7 @@ pre tt:after {
   margin-bottom: 20px;
   padding-top: 20px;
   padding-left: 20px;
-  width: 180px;
+  min-width: 180px;
 }
 .aboutServing h3 {
   margin-bottom: 10px;
