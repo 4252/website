@@ -18,9 +18,12 @@ function SEO({ description, lang, meta, title }) {
           siteMetadata {
             author
             description
-            location
             title
             twitterDescription
+            details {
+              location
+              service
+            }
           }
         }
       }
@@ -43,7 +46,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `location`,
-          content: location,
+          content: site.siteMetadata.details.location,
+        },
+        {
+          name: `service`,
+          content: site.siteMetadata.details.service,
         },
         {
           property: `og:title`,
